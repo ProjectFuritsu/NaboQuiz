@@ -1,0 +1,792 @@
+{
+  "quiz": {
+    "title": "Nabo Quiz",
+    "subtitle": "Para sa tunay na taga-Panabo!",
+    "city": "Panabo City, Davao del Norte",
+    "total_questions": 55,
+    "questions_per_game": 15,
+    "version": "1.0-draft",
+    "note": "Please verify all questions marked needs_verification: true before publishing.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Panabo",
+      "https://panabocity.gov.ph/quick-facts-about-panabo-city/",
+      "https://panabocity.gov.ph/history/",
+      "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html",
+      "https://www.studocu.com/ph/document/university-of-mindanao/history/history-of-panabo-city/101520275",
+      "https://www.discoverdavao.ph/about-panabo-city",
+      "https://philippinescities.com/panabo-city-davao-del-norte/"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "History & Origins",
+      "question": "What does the name 'Panabo' originate from?",
+      "options": {
+        "A": "A Visayan word for 'new land'",
+        "B": "The phrase 'pana-sa-boboy' meaning bow and arrow",
+        "C": "A Spanish colonial term for 'riverbank'",
+        "D": "Named after a local chieftain named 'Nabo'"
+      },
+      "answer": "B",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 2,
+      "category": "History & Origins",
+      "question": "Who were the original inhabitants of what is now Panabo City?",
+      "options": {
+        "A": "Lumad Mandaya",
+        "B": "Kalagans only",
+        "C": "Aetas",
+        "D": "Cebuano settlers"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 3,
+      "category": "History & Origins",
+      "question": "What did early settlers call the trading area that is now Panabo's urban core?",
+      "options": {
+        "A": "Poblacion",
+        "B": "Taboan",
+        "C": "Bagsakan",
+        "D": "Palengke"
+      },
+      "answer": "B",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 4,
+      "category": "History & Origins",
+      "question": "Panabo was previously a barangay of which town?",
+      "options": {
+        "A": "Davao City",
+        "B": "Carmen",
+        "C": "Tagum (then called Magugpo)",
+        "D": "Santo Tomas"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 5,
+      "category": "History & Origins",
+      "question": "Through what proclamation did Panabo become a municipality?",
+      "options": {
+        "A": "Presidential Proclamation No. 100",
+        "B": "Presidential Proclamation No. 236",
+        "C": "Presidential Proclamation No. 512",
+        "D": "Presidential Proclamation No. 88"
+      },
+      "answer": "B",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 6,
+      "category": "History & Origins",
+      "question": "Which Philippine president signed Panabo's proclamation as a municipality?",
+      "options": {
+        "A": "Elpidio Quirino",
+        "B": "Ferdinand Marcos",
+        "C": "Manuel Roxas",
+        "D": "Ramon Magsaysay"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 7,
+      "category": "History & Origins",
+      "question": "When did Panabo officially become a municipality?",
+      "options": {
+        "A": "July 19, 1945",
+        "B": "March 31, 1950",
+        "C": "July 19, 1949",
+        "D": "December 20, 1949"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 8,
+      "category": "History & Origins",
+      "question": "What Republic Act converted Panabo into a city?",
+      "options": {
+        "A": "R.A. 7160",
+        "B": "R.A. 9015",
+        "C": "R.A. 8550",
+        "D": "R.A. 9003"
+      },
+      "answer": "B",
+      "source": "Wikipedia / Official Gazette",
+      "needs_verification": false
+    },
+    {
+      "id": 9,
+      "category": "History & Origins",
+      "question": "In what year did Panabo officially become a city?",
+      "options": {
+        "A": "1998",
+        "B": "1999",
+        "C": "2000",
+        "D": "2001"
+      },
+      "answer": "D",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 10,
+      "category": "History & Origins",
+      "question": "When was the plebiscite held that ratified Panabo's cityhood?",
+      "options": {
+        "A": "July 19, 2001",
+        "B": "March 31, 2001",
+        "C": "December 20, 2001",
+        "D": "January 1, 2001"
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 11,
+      "category": "History & Origins",
+      "question": "Aside from Aetas, which other groups co-existed in early Panabo?",
+      "options": {
+        "A": "Igorots and Tagalogs",
+        "B": "Kalagans and ANGs",
+        "C": "Maguindanao and Ilocanos",
+        "D": "Maranao and Cebuanos"
+      },
+      "answer": "B",
+      "source": "panabocity.gov.ph/history",
+      "needs_verification": true
+    },
+    {
+      "id": 12,
+      "category": "History & Origins",
+      "question": "What did early settlers from Luzon and Visayas primarily come to Panabo for?",
+      "options": {
+        "A": "Gold mining",
+        "B": "Fishing",
+        "C": "Farming on fertile lowlands",
+        "D": "Military settlement"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 13,
+      "category": "Economy & Agriculture",
+      "question": "What is Panabo City's popular nickname?",
+      "options": {
+        "A": "Rice Capital of Mindanao",
+        "B": "Durian Capital of the Philippines",
+        "C": "Banana Capital of the Philippines",
+        "D": "Coconut Capital of the South"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 14,
+      "category": "Economy & Agriculture",
+      "question": "What company founded the world's largest Cavendish banana plantation in Panabo?",
+      "options": {
+        "A": "Dole Philippines",
+        "B": "Del Monte",
+        "C": "TADECO",
+        "D": "AMS Farming"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 15,
+      "category": "Economy & Agriculture",
+      "question": "What does TADECO stand for?",
+      "options": {
+        "A": "Tagum Agricultural Development Company",
+        "B": "Tagum Agro-industrial Development Corporation",
+        "C": "Timber and Development Company",
+        "D": "Tri-Agri Development Company"
+      },
+      "answer": "A",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 16,
+      "category": "Economy & Agriculture",
+      "question": "When was TADECO founded?",
+      "options": {
+        "A": "July 19, 1949",
+        "B": "December 20, 1950",
+        "C": "March 31, 1955",
+        "D": "June 12, 1948"
+      },
+      "answer": "B",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 17,
+      "category": "Economy & Agriculture",
+      "question": "What type of banana is primarily cultivated in Panabo?",
+      "options": {
+        "A": "Lakatan",
+        "B": "Saba",
+        "C": "Cavendish",
+        "D": "Señorita"
+      },
+      "answer": "C",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 18,
+      "category": "Economy & Agriculture",
+      "question": "What crop was widely cultivated in Panabo BEFORE bananas became dominant?",
+      "options": {
+        "A": "Coconut",
+        "B": "Abaca",
+        "C": "Sugarcane",
+        "D": "Pineapple"
+      },
+      "answer": "B",
+      "source": "Grokipedia / Studocu",
+      "needs_verification": true
+    },
+    {
+      "id": 19,
+      "category": "Economy & Agriculture",
+      "question": "Approximately how many hectares does Panabo City cover?",
+      "options": {
+        "A": "10,000 hectares",
+        "B": "15,000 hectares",
+        "C": "25,123 hectares",
+        "D": "40,000 hectares"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 20,
+      "category": "Economy & Agriculture",
+      "question": "To which countries does Panabo export its Cavendish bananas?",
+      "options": {
+        "A": "Africa and Australia only",
+        "B": "South America and China only",
+        "C": "Japan, South Korea, China, Middle East, and EU",
+        "D": "United States and Canada only"
+      },
+      "answer": "C",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 21,
+      "category": "Economy & Agriculture",
+      "question": "Approximately what percentage of Panabo's land is dedicated to banana cultivation?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "60%",
+        "D": "80%"
+      },
+      "answer": "B",
+      "source": "Wikipedia (~10,000 hectares out of 25,123 hectares total)",
+      "needs_verification": false
+    },
+    {
+      "id": 22,
+      "category": "Economy & Agriculture",
+      "question": "How many hectares of banana fields does TADECO's plantation cover?",
+      "options": {
+        "A": "1,000 hectares",
+        "B": "3,500 hectares",
+        "C": "6,900 hectares",
+        "D": "12,000 hectares"
+      },
+      "answer": "C",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 23,
+      "category": "Geography",
+      "question": "Panabo City is located in which province?",
+      "options": {
+        "A": "Davao del Sur",
+        "B": "Davao Oriental",
+        "C": "Davao de Oro",
+        "D": "Davao del Norte"
+      },
+      "answer": "D",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 24,
+      "category": "Geography",
+      "question": "Panabo City is part of which region?",
+      "options": {
+        "A": "Region X (Northern Mindanao)",
+        "B": "Region XI (Davao Region)",
+        "C": "Region XII (SOCCSKSARGEN)",
+        "D": "Region IX (Zamboanga Peninsula)"
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 25,
+      "category": "Geography",
+      "question": "Panabo City is situated between which two major cities?",
+      "options": {
+        "A": "Digos City and Tagum City",
+        "B": "Davao City and Tagum City",
+        "C": "Mati City and Davao City",
+        "D": "Kidapawan City and Tagum City"
+      },
+      "answer": "B",
+      "source": "Wikipedia / philippinescities.com",
+      "needs_verification": false
+    },
+    {
+      "id": 26,
+      "category": "Geography",
+      "question": "How far is Panabo from Davao City?",
+      "options": {
+        "A": "15 km",
+        "B": "20 km",
+        "C": "32 km",
+        "D": "50 km"
+      },
+      "answer": "C",
+      "source": "philippinescities.com",
+      "needs_verification": false
+    },
+    {
+      "id": 27,
+      "category": "Geography",
+      "question": "How many barangays does Panabo City have?",
+      "options": {
+        "A": "25",
+        "B": "32",
+        "C": "40",
+        "D": "47"
+      },
+      "answer": "C",
+      "source": "Wikipedia / PhilAtlas",
+      "needs_verification": false
+    },
+    {
+      "id": 28,
+      "category": "Geography",
+      "question": "What body of water borders Panabo to the east?",
+      "options": {
+        "A": "Samal Strait",
+        "B": "Davao Gulf",
+        "C": "Moro Gulf",
+        "D": "Celebes Sea"
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 29,
+      "category": "Geography",
+      "question": "Panabo is part of which metropolitan area?",
+      "options": {
+        "A": "Metro Tagum",
+        "B": "Metro Davao",
+        "C": "Metro Samal",
+        "D": "Metro Carmen"
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 30,
+      "category": "Geography",
+      "question": "What highway passes through Panabo connecting it to the rest of the Philippines?",
+      "options": {
+        "A": "Maharlika Highway (Pan-Philippine Highway)",
+        "B": "Marcos Highway",
+        "C": "Southern Mindanao Expressway",
+        "D": "Trans-Mindanao Highway"
+      },
+      "answer": "A",
+      "source": "Wikipedia / philippinescities.com",
+      "needs_verification": false
+    },
+    {
+      "id": 31,
+      "category": "Geography",
+      "question": "How far is Panabo City from Tagum City?",
+      "options": {
+        "A": "10 km",
+        "B": "20 km",
+        "C": "28 km",
+        "D": "45 km"
+      },
+      "answer": "C",
+      "source": "philippinescities.com",
+      "needs_verification": false
+    },
+    {
+      "id": 32,
+      "category": "Geography",
+      "question": "What is Panabo City's ZIP code?",
+      "options": {
+        "A": "8000",
+        "B": "8100",
+        "C": "8105",
+        "D": "8200"
+      },
+      "answer": "C",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 33,
+      "category": "Festivals & Culture",
+      "question": "What is Panabo's major festival held every October?",
+      "options": {
+        "A": "Kadayawan Festival",
+        "B": "Sinulog Festival",
+        "C": "Binulig Festival",
+        "D": "Pamulak Festival"
+      },
+      "answer": "C",
+      "source": "Studocu / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 34,
+      "category": "Festivals & Culture",
+      "question": "What does the Binulig Festival primarily celebrate?",
+      "options": {
+        "A": "The city's founding anniversary",
+        "B": "The agricultural heritage and banana industry",
+        "C": "The indigenous Aeta culture",
+        "D": "The fishing industry"
+      },
+      "answer": "B",
+      "source": "Studocu / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 35,
+      "category": "Festivals & Culture",
+      "question": "How long does the Binulig Festival celebration last?",
+      "options": {
+        "A": "1 week",
+        "B": "2 weeks",
+        "C": "3 weeks",
+        "D": "5 weeks"
+      },
+      "answer": "D",
+      "source": "diklap.com / Studocu",
+      "needs_verification": true
+    },
+    {
+      "id": 36,
+      "category": "Festivals & Culture",
+      "question": "What festival did Binulig replace?",
+      "options": {
+        "A": "Araw ng Panabo Festival",
+        "B": "Durian Festival",
+        "C": "Banana Festival",
+        "D": "Harvest Festival"
+      },
+      "answer": "C",
+      "source": "Studocu",
+      "needs_verification": true
+    },
+    {
+      "id": 37,
+      "category": "Festivals & Culture",
+      "question": "When is 'Araw ng Panabo' observed?",
+      "options": {
+        "A": "July 19",
+        "B": "December 20",
+        "C": "March 31",
+        "D": "June 12"
+      },
+      "answer": "C",
+      "source": "Studocu / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 38,
+      "category": "Festivals & Culture",
+      "question": "What is the most widely spoken language in Panabo City?",
+      "options": {
+        "A": "Tagalog",
+        "B": "Ilocano",
+        "C": "Cebuano (Bisaya)",
+        "D": "Chavacano"
+      },
+      "answer": "C",
+      "source": "discoverdavao.ph / Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 39,
+      "category": "Festivals & Culture",
+      "question": "The people of Panabo City are officially called?",
+      "options": {
+        "A": "Panabenses",
+        "B": "Panabonons",
+        "C": "Panaboans",
+        "D": "Nabonians"
+      },
+      "answer": "C",
+      "source": "Wikipedia (official demonym)",
+      "needs_verification": false
+    },
+    {
+      "id": 40,
+      "category": "Festivals & Culture",
+      "question": "What is Panabo City's official motto?",
+      "options": {
+        "A": "\"Progress Through Unity\"",
+        "B": "\"Service to Panaboans, Service to God!\"",
+        "C": "\"City of Bananas, City of Life\"",
+        "D": "\"Proud to be Panaboan\""
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 41,
+      "category": "Landmarks & Tourism",
+      "question": "What museum in Panabo City preserves the city's cultural heritage?",
+      "options": {
+        "A": "Casa Real Panabo",
+        "B": "Museo Panabo",
+        "C": "Panabo Heritage House",
+        "D": "Taboan Museum"
+      },
+      "answer": "B",
+      "source": "Studocu / discoverdavao.ph",
+      "needs_verification": true
+    },
+    {
+      "id": 42,
+      "category": "Landmarks & Tourism",
+      "question": "Who sculpted the banana-inspired fountain at Panabo's Freedom Park?",
+      "options": {
+        "A": "Abdulmari Imao",
+        "B": "Napoleon Abueva",
+        "C": "Kublai Millan",
+        "D": "Eduardo Castrillo"
+      },
+      "answer": "C",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 43,
+      "category": "Landmarks & Tourism",
+      "question": "The Panabo Multi-Purpose Tourism, Cultural and Sports Center can accommodate approximately how many people?",
+      "options": {
+        "A": "2,000",
+        "B": "5,000",
+        "C": "10,000",
+        "D": "20,000"
+      },
+      "answer": "C",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 44,
+      "category": "Landmarks & Tourism",
+      "question": "The Panabo Multi-Purpose gym also serves as a playing venue for which league?",
+      "options": {
+        "A": "UAAP",
+        "B": "Philippine Basketball Association (PBA)",
+        "C": "NCAA Philippines",
+        "D": "Maharlika Pilipinas Basketball League"
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 45,
+      "category": "Landmarks & Tourism",
+      "question": "Panabo City Hall is approximately how far from the Davao City boundary?",
+      "options": {
+        "A": "500 meters",
+        "B": "1 kilometer",
+        "C": "2.23 kilometers",
+        "D": "5 kilometers"
+      },
+      "answer": "C",
+      "source": "Wikipedia / panabocity.gov.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 46,
+      "category": "Landmarks & Tourism",
+      "question": "What type of natural attraction in Panabo is known for its ecological importance?",
+      "options": {
+        "A": "Coral reefs",
+        "B": "Mangrove forest",
+        "C": "Volcanic crater lake",
+        "D": "Underground river"
+      },
+      "answer": "B",
+      "source": "panabocity.gov.ph / Scribd document",
+      "needs_verification": true
+    },
+    {
+      "id": 47,
+      "category": "Landmarks & Tourism",
+      "question": "What type of farm tours are available for visitors in Panabo?",
+      "options": {
+        "A": "Rice terraces",
+        "B": "Coffee and cacao farms only",
+        "C": "Fish, shrimp farms and banana plantations",
+        "D": "Sugar mill tours"
+      },
+      "answer": "C",
+      "source": "discoverdavao.ph",
+      "needs_verification": false
+    },
+    {
+      "id": 48,
+      "category": "Population & Government",
+      "question": "What was Panabo's population according to the 2024 Census?",
+      "options": {
+        "A": "150,432",
+        "B": "184,599",
+        "C": "209,230",
+        "D": "211,242"
+      },
+      "answer": "D",
+      "source": "Wikipedia / PSA 2024 Census",
+      "needs_verification": false
+    },
+    {
+      "id": 49,
+      "category": "Population & Government",
+      "question": "Panabo is the ___ most populous city in Davao del Norte.",
+      "options": {
+        "A": "First",
+        "B": "Second",
+        "C": "Third",
+        "D": "Fourth"
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 50,
+      "category": "Population & Government",
+      "question": "What is the income classification of Panabo City?",
+      "options": {
+        "A": "1st class city",
+        "B": "2nd class city",
+        "C": "3rd class city",
+        "D": "Independent component city"
+      },
+      "answer": "A",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 51,
+      "category": "Population & Government",
+      "question": "What is Panabo City's total land area in square kilometers?",
+      "options": {
+        "A": "125.5 km²",
+        "B": "175.2 km²",
+        "C": "251.23 km²",
+        "D": "320.8 km²"
+      },
+      "answer": "C",
+      "source": "Wikipedia / PhilAtlas",
+      "needs_verification": false
+    },
+    {
+      "id": 52,
+      "category": "Notable People",
+      "question": "Which Panaboan is a professional boxer known internationally?",
+      "options": {
+        "A": "Manny Pacquiao",
+        "B": "Jerwin Ancajas",
+        "C": "Mark Magsayo",
+        "D": "Jonas Sultan"
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 53,
+      "category": "Notable People",
+      "question": "Which Panaboan became a semifinalist on The Voice of the Philippines?",
+      "options": {
+        "A": "Kobie Brown",
+        "B": "Jason Dy",
+        "C": "Thor Dulay",
+        "D": "Klarisse de Guzman"
+      },
+      "answer": "C",
+      "source": "Wikipedia",
+      "needs_verification": false
+    },
+    {
+      "id": 54,
+      "category": "Notable People",
+      "question": "Jasmine Bacurnay Lee, a notable person from Panabo, is known as what in South Korea?",
+      "options": {
+        "A": "K-pop idol",
+        "B": "Actress and politician",
+        "C": "Professional athlete",
+        "D": "News anchor"
+      },
+      "answer": "B",
+      "source": "Wikipedia",
+      "needs_verification": true
+    },
+    {
+      "id": 55,
+      "category": "Notable People",
+      "question": "Alan Dujali, a notable Panaboan, is known as a?",
+      "options": {
+        "A": "Boxer",
+        "B": "Musician",
+        "C": "Politician",
+        "D": "Journalist"
+      },
+      "answer": "C",
+      "source": "Wikipedia",
+      "needs_verification": false
+    }
+  ]
+}
