@@ -1,260 +1,263 @@
 {
   "quiz": {
-    "title": "Nabo Quiz",
-    "subtitle": "Para sa tunay na taga-Panabo!",
-    "city": "Panabo City, Davao del Norte",
-    "total_questions": 55,
-    "questions_per_game": 15,
-    "version": "1.0-draft",
-    "note": "Please verify all questions marked needs_verification: true before publishing.",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Panabo",
-      "https://panabocity.gov.ph/quick-facts-about-panabo-city/",
-      "https://panabocity.gov.ph/history/",
-      "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html",
-      "https://www.studocu.com/ph/document/university-of-mindanao/history/history-of-panabo-city/101520275",
-      "https://www.discoverdavao.ph/about-panabo-city",
-      "https://philippinescities.com/panabo-city-davao-del-norte/"
-    ]
+    "title": "Panabo City Local History & Culture Quiz",
+    "questions_per_game": 10
   },
   "questions": [
     {
       "id": 1,
       "category": "History & Origins",
-      "question": "What does the name 'Panabo' originate from?",
+      "question": "The name 'Panabo' originated from 'pana-sa-boboy'. What did this phrase refer to?",
       "options": {
-        "A": "A Visayan word for 'new land'",
-        "B": "The phrase 'pana-sa-boboy' meaning bow and arrow",
-        "C": "A Spanish colonial term for 'riverbank'",
-        "D": "Named after a local chieftain named 'Nabo'"
+        "A": "A traditional dynamic dance style",
+        "B": "The bow and arrow used by early Aeta hunters",
+        "C": "A native way of cooking wild boar",
+        "D": "The seasonal flowering of forest canopy trees"
       },
-      "answer": "B",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Early nomadic Aeta inhabitants used the 'pana-sa-boboy' (bow and arrow) to hunt wild animals for food in the lowlands.",
+      "source_title": "Discover Panabo City: Attractions & History (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/414308366/Panabo-City-docx"
     },
     {
       "id": 2,
       "category": "History & Origins",
-      "question": "Who were the original inhabitants of what is now Panabo City?",
+      "question": "Before Christian settlers arrived, what was the bustling trading settlement in Panabo called?",
       "options": {
-        "A": "Lumad Mandaya",
-        "B": "Kalagans only",
-        "C": "Aetas",
-        "D": "Cebuano settlers"
+        "A": "Mati",
+        "B": "Taboan",
+        "C": "Magugpo",
+        "D": "Malativas"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "At the beginning of the 20th century, arriving settlers found a thriving local marketplace and trading center known as Taboan.",
+      "source_title": "Panabo Travel Guide: Best Things to Do & Top Attractions",
+      "source_url": "https://www.kupi.com/en-ae/explore/philippines/panabo/history"
     },
     {
       "id": 3,
       "category": "History & Origins",
-      "question": "What did early settlers call the trading area that is now Panabo's urban core?",
+      "question": "In what year did Panabo officially become an independent municipality?",
       "options": {
-        "A": "Poblacion",
-        "B": "Taboan",
-        "C": "Bagsakan",
-        "D": "Palengke"
+        "A": "1945",
+        "B": "1949",
+        "C": "1951",
+        "D": "1960"
       },
-      "answer": "B",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Panabo gained administrative independence from its mother municipality by presidential decree on July 19, 1949.",
+      "source_title": "Panabo Travel Guide: Best Things to Do & Top Attractions",
+      "source_url": "https://www.kupi.com/en-ae/explore/philippines/panabo/history"
     },
     {
       "id": 4,
       "category": "History & Origins",
-      "question": "Panabo was previously a barangay of which town?",
+      "question": "Before becoming an independent municipality, Panabo was a component barangay of which town?",
       "options": {
-        "A": "Davao City",
+        "A": "Tagum",
         "B": "Carmen",
-        "C": "Tagum (then called Magugpo)",
-        "D": "Santo Tomas"
+        "C": "Davao City",
+        "D": "Samal"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "A",
+      "context_note": "Panabo was initially a territorial barangay administered under the jurisdiction of the municipality of Tagum (formerly known as Magugpo).",
+      "source_title": "Panabo City: History and Attractions (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/444010481/HISTORY-OF-docx"
     },
     {
       "id": 5,
       "category": "History & Origins",
-      "question": "Through what proclamation did Panabo become a municipality?",
+      "question": "Under whose presidential administration did Panabo officially achieve component cityhood status?",
       "options": {
-        "A": "Presidential Proclamation No. 100",
-        "B": "Presidential Proclamation No. 236",
-        "C": "Presidential Proclamation No. 512",
-        "D": "Presidential Proclamation No. 88"
+        "A": "Fidel V. Ramos",
+        "B": "Joseph Estrada",
+        "C": "Gloria Macapagal-Arroyo",
+        "D": "Benigno Aquino III"
       },
-      "answer": "B",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "C",
+      "context_note": "President Gloria Macapagal-Arroyo signed Republic Act No. 9015 on February 28, 2001, clear-pathing the way for cityhood.",
+      "source_title": "Panabo Travel Guide: Best Things to Do & Top Attractions",
+      "source_url": "https://www.kupi.com/en-ae/explore/philippines/panabo/history"
     },
     {
       "id": 6,
       "category": "History & Origins",
-      "question": "Which Philippine president signed Panabo's proclamation as a municipality?",
+      "question": "What historic Republic Act converted the municipality of Panabo into a component city?",
       "options": {
-        "A": "Elpidio Quirino",
-        "B": "Ferdinand Marcos",
-        "C": "Manuel Roxas",
-        "D": "Ramon Magsaysay"
+        "A": "Republic Act No. 7160",
+        "B": "Republic Act No. 9015",
+        "C": "Republic Act No. 8435",
+        "D": "Republic Act No. 9500"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Republic Act No. 9015 is the official charter legislative document that authorized the transition of Panabo into a component city.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
     },
     {
       "id": 7,
       "category": "History & Origins",
-      "question": "When did Panabo officially become a municipality?",
+      "question": "What is the exact date of ratification and official foundation of 'Araw ng Panabo'?",
       "options": {
-        "A": "July 19, 1945",
-        "B": "March 31, 1950",
+        "A": "January 15, 2000",
+        "B": "March 31, 2001",
         "C": "July 19, 1949",
-        "D": "December 20, 1949"
+        "D": "October 12, 2002"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "On March 31, 2001, local residents overwhelmingly ratified the cityhood law in a public plebiscite, establishing 'Araw ng Panabo'.",
+      "source_title": "Panabo Travel Guide: Best Things to Do & Top Attractions",
+      "source_url": "https://www.kupi.com/en-ae/explore/philippines/panabo/history"
     },
     {
       "id": 8,
       "category": "History & Origins",
-      "question": "What Republic Act converted Panabo into a city?",
+      "question": "Which major highway corridor directly bisects Panabo, cementing its position as a regional trade gateway?",
       "options": {
-        "A": "R.A. 7160",
-        "B": "R.A. 9015",
-        "C": "R.A. 8550",
-        "D": "R.A. 9003"
+        "A": "Salamat Highway",
+        "B": "Pan-Philippine Highway (Daang Maharlika)",
+        "C": "Bukidnon-Davao Road",
+        "D": "Coastal Bypass Link"
       },
-      "answer": "B",
-      "source": "Wikipedia / Official Gazette",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Panabo sits squarely along the Pan-Philippine Highway, making it a natural logistics hub between Davao City and Tagum City.",
+      "source_title": "Panabo Travel Guide: Best Things to Do & Top Attractions",
+      "source_url": "https://www.kupi.com/en-ae/explore/philippines/panabo/history"
     },
     {
       "id": 9,
       "category": "History & Origins",
-      "question": "In what year did Panabo officially become a city?",
+      "question": "What structural shift caused early indigenous Aetas to migrate further up into the mountain hinterlands?",
       "options": {
-        "A": "1998",
-        "B": "1999",
-        "C": "2000",
-        "D": "2001"
+        "A": "Severe flooding from the Davao Gulf",
+        "B": "The influx of Christian agricultural settlers from Visayas and Luzon",
+        "C": "An executive decree by provincial leaders",
+        "D": "Industrial chemical mining operations"
       },
-      "answer": "D",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "As waves of agricultural migrants arrived and cleared coastal trade centers in the early 1900s, Aetas moved inland to preserve their heritage.",
+      "source_title": "Discover Panabo City: Attractions & History (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/414308366/Panabo-City-docx"
     },
     {
       "id": 10,
       "category": "History & Origins",
-      "question": "When was the plebiscite held that ratified Panabo's cityhood?",
+      "question": "What class of component city is Panabo categorized under in terms of regular financial income status?",
       "options": {
-        "A": "July 19, 2001",
-        "B": "March 31, 2001",
-        "C": "December 20, 2001",
-        "D": "January 1, 2001"
+        "A": "1st Class City",
+        "B": "2nd Class City",
+        "C": "3rd Class City",
+        "D": "5th Class City"
       },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "C",
+      "context_note": "Panabo City is officially designated as a 3rd class component city within the province of Davao del Norte.",
+      "source_title": "Panabo City, Davao del Norte Profile - PhilAtlas",
+      "source_url": "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html"
     },
     {
       "id": 11,
       "category": "History & Origins",
       "question": "Aside from Aetas, which other groups co-existed in early Panabo?",
       "options": {
-        "A": "Igorots and Tagalogs",
+        "A": "Bagobos and Mandayas",
         "B": "Kalagans and ANGs",
-        "C": "Maguindanao and Ilocanos",
-        "D": "Maranao and Cebuanos"
+        "C": "Mansakas and Maranaos",
+        "D": "T'bolis and Bilaans"
       },
-      "answer": "B",
-      "source": "panabocity.gov.ph/history",
-      "needs_verification": true
+      "correct_option": "B",
+      "context_note": "Early records note that Kalagans (Davao Muslims) and Animist Native Groups (ANGs) co-existed with the Aetas.",
+      "source_title": "Panabo City: History and Attractions (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/444010481/HISTORY-OF-docx"
     },
     {
       "id": 12,
-      "category": "History & Origins",
-      "question": "What did early settlers from Luzon and Visayas primarily come to Panabo for?",
+      "category": "Economy & Agriculture",
+      "question": "What globally prominent title is widely given to Panabo City due to its primary export engine?",
       "options": {
-        "A": "Gold mining",
-        "B": "Fishing",
-        "C": "Farming on fertile lowlands",
-        "D": "Military settlement"
+        "A": "Durian Capital of Mindanao",
+        "B": "Banana Capital of the Philippines",
+        "C": "Aquaculture Center of the South",
+        "D": "Gold Mining Hub of Davao"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Panabo earned the definitive title 'Banana Capital of the Philippines' because of its extensive networks of export-grade Cavendish fields.",
+      "source_title": "Discover Panabo City: Attractions & History (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/414308366/Panabo-City-docx"
     },
     {
       "id": 13,
       "category": "Economy & Agriculture",
-      "question": "What is Panabo City's popular nickname?",
+      "question": "Which corporate enterprise operates the largest contiguous banana plantation in the world within Panabo?",
       "options": {
-        "A": "Rice Capital of Mindanao",
-        "B": "Durian Capital of the Philippines",
-        "C": "Banana Capital of the Philippines",
-        "D": "Coconut Capital of the South"
+        "A": "Dole Philippines",
+        "B": "Tagum Agricultural Development Corporation (TADECO)",
+        "C": "Del Monte Fresh Produce",
+        "D": "Sumifru Corporation"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "TADECO is headquartered and primarily located across Panabo, running a globally unparalleled agro-industrial complex.",
+      "source_title": "Discover Panabo City: Attractions & History (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/414308366/Panabo-City-docx"
     },
     {
       "id": 14,
       "category": "Economy & Agriculture",
-      "question": "What company founded the world's largest Cavendish banana plantation in Panabo?",
+      "question": "In what year was the Tagum Agricultural Development Corporation (TADECO) founded by Don Antonio Floirendo Sr.?",
       "options": {
-        "A": "Dole Philippines",
-        "B": "Del Monte",
-        "C": "TADECO",
-        "D": "AMS Farming"
+        "A": "1948",
+        "B": "1950",
+        "C": "1955",
+        "D": "1962"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "TADECO was established on December 20, 1950, which fundamentally shifted Panabo's economic landscape toward massive industrial growth.",
+      "source_title": "Panabo Travel Guide: Best Things to Do & Top Attractions",
+      "source_url": "https://www.kupi.com/en-ae/explore/philippines/panabo/history"
     },
     {
       "id": 15,
       "category": "Economy & Agriculture",
-      "question": "What does TADECO stand for?",
+      "question": "Approximately how many hectares of banana fields does TADECO occupy for worldwide export production?",
       "options": {
-        "A": "Tagum Agricultural Development Company",
-        "B": "Tagum Agro-industrial Development Corporation",
-        "C": "Timber and Development Company",
-        "D": "Tri-Agri Development Company"
+        "A": "2,500 hectares",
+        "B": "4,200 hectares",
+        "C": "6,900 hectares",
+        "D": "12,000 hectares"
       },
-      "answer": "A",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "C",
+      "context_note": "TADECO spans roughly 6,900 hectares of high-yield agricultural terrain, packaging millions of boxes of fruit annually.",
+      "source_title": "Discover Panabo City: Attractions & History (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/414308366/Panabo-City-docx"
     },
     {
       "id": 16,
       "category": "Economy & Agriculture",
-      "question": "When was TADECO founded?",
-      "options": {
-        "A": "July 19, 1949",
-        "B": "December 20, 1950",
-        "C": "March 31, 1955",
-        "D": "June 12, 1948"
-      },
-      "answer": "B",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
-    },
-    {
-      "id": 17,
-      "category": "Economy & Agriculture",
-      "question": "What type of banana is primarily cultivated in Panabo?",
+      "question": "Which specific variety of banana is primarily grown in Panabo for global international markets?",
       "options": {
         "A": "Lakatan",
         "B": "Saba",
         "C": "Cavendish",
-        "D": "Señorita"
+        "D": "Latundan"
       },
-      "answer": "C",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "C",
+      "context_note": "The sweet, robust Cavendish banana is the exclusive primary cultivar grown for maritime shipping and international distribution.",
+      "source_title": "Panabo Travel Guide: Best Things to Do & Top Attractions",
+      "source_url": "https://www.kupi.com/en-ae/explore/philippines/panabo/history"
+    },
+    {
+      "id": 17,
+      "category": "Economy & Agriculture",
+      "question": "Apart from banana cultivation, what major aquaculture initiative handles maritime productivity in Panabo?",
+      "options": {
+        "A": "Panabo Mariculture Park",
+        "B": "Davao Gulf Sea Ranch",
+        "C": "Coral Nursery Project",
+        "D": "Mangrove Shrimp Enclosure"
+      },
+      "correct_option": "A",
+      "context_note": "The Panabo Mariculture Park hosts large-scale sea cages for sustainable commercial fish and shrimp production.",
+      "source_title": "Discover Panabo City: Attractions & History (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/414308366/Panabo-City-docx"
     },
     {
       "id": 18,
@@ -263,236 +266,253 @@
       "options": {
         "A": "Coconut",
         "B": "Abaca",
-        "C": "Sugarcane",
-        "D": "Pineapple"
+        "C": "Rice",
+        "D": "Sugarcane"
       },
-      "answer": "B",
-      "source": "Grokipedia / Studocu",
-      "needs_verification": true
+      "correct_option": "B",
+      "context_note": "Abaca (Manila hemp) plantations dominated the local agricultural landscape prior to the late 1950s banana expansion.",
+      "source_title": "Panabo City Industrial History (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/444010481/HISTORY-OF-docx"
     },
     {
       "id": 19,
       "category": "Economy & Agriculture",
-      "question": "Approximately how many hectares does Panabo City cover?",
+      "question": "Which major body of water shapes the coastal aquaculture bounds of Panabo?",
       "options": {
-        "A": "10,000 hectares",
-        "B": "15,000 hectares",
-        "C": "25,123 hectares",
-        "D": "40,000 hectares"
+        "A": "Moro Gulf",
+        "B": "Davao Gulf",
+        "C": "Sulu Sea",
+        "D": "Celebes Sea"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Panabo faces the nutrient-rich waters of the Davao Gulf, powering its local fishing and mariculture industries.",
+      "source_title": "Panabo City, Davao del Norte Profile - PhilAtlas",
+      "source_url": "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html"
     },
     {
       "id": 20,
       "category": "Economy & Agriculture",
-      "question": "To which countries does Panabo export its Cavendish bananas?",
+      "question": "What environmental factor makes Panabo's geography ideal for continuous agricultural harvesting?",
       "options": {
-        "A": "Africa and Australia only",
-        "B": "South America and China only",
-        "C": "Japan, South Korea, China, Middle East, and EU",
-        "D": "United States and Canada only"
+        "A": "Frequent volcanic ash enrichment",
+        "B": "A tropical climate with relatively stable, evenly distributed year-round rainfall",
+        "C": "A prolonged six-month dry freezing window",
+        "D": "Sub-surface limestone cave water tables"
       },
-      "answer": "C",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "The lack of a distinct destructive dry season coupled with stable seasonal rainfall helps keep soil fertility high.",
+      "source_title": "About Panabo City - Discover Davao",
+      "source_url": "https://www.discoverdavao.ph/about-panabo-city"
     },
     {
       "id": 21,
-      "category": "Economy & Agriculture",
-      "question": "Approximately what percentage of Panabo's land is dedicated to banana cultivation?",
-      "options": {
-        "A": "20%",
-        "B": "40%",
-        "C": "60%",
-        "D": "80%"
-      },
-      "answer": "B",
-      "source": "Wikipedia (~10,000 hectares out of 25,123 hectares total)",
-      "needs_verification": false
-    },
-    {
-      "id": 22,
-      "category": "Economy & Agriculture",
-      "question": "How many hectares of banana fields does TADECO's plantation cover?",
-      "options": {
-        "A": "1,000 hectares",
-        "B": "3,500 hectares",
-        "C": "6,900 hectares",
-        "D": "12,000 hectares"
-      },
-      "answer": "C",
-      "source": "Wikipedia",
-      "needs_verification": false
-    },
-    {
-      "id": 23,
-      "category": "Geography",
-      "question": "Panabo City is located in which province?",
-      "options": {
-        "A": "Davao del Sur",
-        "B": "Davao Oriental",
-        "C": "Davao de Oro",
-        "D": "Davao del Norte"
-      },
-      "answer": "D",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
-    },
-    {
-      "id": 24,
-      "category": "Geography",
-      "question": "Panabo City is part of which region?",
-      "options": {
-        "A": "Region X (Northern Mindanao)",
-        "B": "Region XI (Davao Region)",
-        "C": "Region XII (SOCCSKSARGEN)",
-        "D": "Region IX (Zamboanga Peninsula)"
-      },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": false
-    },
-    {
-      "id": 25,
-      "category": "Geography",
-      "question": "Panabo City is situated between which two major cities?",
-      "options": {
-        "A": "Digos City and Tagum City",
-        "B": "Davao City and Tagum City",
-        "C": "Mati City and Davao City",
-        "D": "Kidapawan City and Tagum City"
-      },
-      "answer": "B",
-      "source": "Wikipedia / philippinescities.com",
-      "needs_verification": false
-    },
-    {
-      "id": 26,
-      "category": "Geography",
-      "question": "How far is Panabo from Davao City?",
-      "options": {
-        "A": "15 km",
-        "B": "20 km",
-        "C": "32 km",
-        "D": "50 km"
-      },
-      "answer": "C",
-      "source": "philippinescities.com",
-      "needs_verification": false
-    },
-    {
-      "id": 27,
-      "category": "Geography",
-      "question": "How many barangays does Panabo City have?",
+      "category": "Geography & Demographics",
+      "question": "How many total component barangays make up the administrative territory of Panabo City?",
       "options": {
         "A": "25",
         "B": "32",
         "C": "40",
-        "D": "47"
+        "D": "55"
       },
-      "answer": "C",
-      "source": "Wikipedia / PhilAtlas",
-      "needs_verification": false
+      "correct_option": "C",
+      "context_note": "Panabo City is politically sub-divided into exactly 40 distinct urban and rural barangays.",
+      "source_title": "Panabo City, Davao del Norte Profile - PhilAtlas",
+      "source_url": "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html"
+    },
+    {
+      "id": 22,
+      "category": "Geography & Demographics",
+      "question": "Which of the following is an interior agricultural barangay named after a globally iconic chocolate crop?",
+      "options": {
+        "A": "Cagangohan",
+        "B": "Gredu",
+        "C": "Cacao",
+        "D": "Dapco"
+      },
+      "correct_option": "C",
+      "context_note": "Barangay Cacao is a thriving agricultural locality within the city named directly after the cacao tree.",
+      "source_title": "Panabo City, Davao del Norte Profile - PhilAtlas",
+      "source_url": "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html"
+    },
+    {
+      "id": 23,
+      "category": "Geography & Demographics",
+      "question": "Which highly populated urban barangay houses the main commercial centers and historical business spaces?",
+      "options": {
+        "A": "Katualan",
+        "B": "Gredu",
+        "C": "Buenavista",
+        "D": "Kiotoy"
+      },
+      "correct_option": "B",
+      "context_note": "Barangay Gredu is historically one of the most populous, heavily commercialized center points of the city.",
+      "source_title": "Panabo City, Davao del Norte Profile - PhilAtlas",
+      "source_url": "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html"
+    },
+    {
+      "id": 24,
+      "category": "Geography & Demographics",
+      "question": "What is the primary, most widely spoken native tongue used by a majority of Panaboans?",
+      "options": {
+        "A": "Cebuano (Bisaya)",
+        "B": "Chavacano",
+        "C": "Maranao",
+        "D": "Ilocano"
+      },
+      "correct_option": "A",
+      "context_note": "Due to extensive migrations from the central islands, Cebuano/Bisaya serves as the city's common lingua franca.",
+      "source_title": "About Panabo City - Discover Davao",
+      "source_url": "https://www.discoverdavao.ph/about-panabo-city"
+    },
+    {
+      "id": 25,
+      "category": "Geography & Demographics",
+      "question": "What approximate land area does Panabo City cover along its fertile plains?",
+      "options": {
+        "A": "110 square kilometers",
+        "B": "251 square kilometers",
+        "C": "480 square kilometers",
+        "D": "612 square kilometers"
+      },
+      "correct_option": "B",
+      "context_note": "The city covers 251.23 square kilometers, taking up over 7% of Davao del Norte's total provincial land area.",
+      "source_title": "Panabo City, Davao del Norte Profile - PhilAtlas",
+      "source_url": "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html"
+    },
+    {
+      "id": 26,
+      "category": "Geography & Demographics",
+      "question": "Which high-performing local barangay achieved the 'Top 1 Outstanding Barangay' honor for local governance?",
+      "options": {
+        "A": "Barangay Gredu",
+        "B": "Barangay Dapco",
+        "C": "Barangay Southern Davao",
+        "D": "Barangay Malativas"
+      },
+      "correct_option": "B",
+      "context_note": "Barangay Dapco emerged at the top spot for outstanding local community leadership and clean management metrics.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
+    },
+    {
+      "id": 27,
+      "category": "Geography & Demographics",
+      "question": "Which local barangay secured the 'Top 2 Outstanding Barangay' rank right alongside Dapco?",
+      "options": {
+        "A": "Kasilak",
+        "B": "Cagangohan",
+        "C": "Southern Davao",
+        "D": "San Francisco"
+      },
+      "correct_option": "C",
+      "context_note": "Barangay Southern Davao was formally honored as the second-highest ranking outstanding barangay division.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
     },
     {
       "id": 28,
-      "category": "Geography",
-      "question": "What body of water borders Panabo to the east?",
+      "category": "Geography & Demographics",
+      "question": "Which coastal barangay is widely known for hosting vast stretches of residential communities along the shoreline?",
       "options": {
-        "A": "Samal Strait",
-        "B": "Davao Gulf",
-        "C": "Moro Gulf",
-        "D": "Celebes Sea"
+        "A": "Cagangohan",
+        "B": "Little Panay",
+        "C": "Katipunan",
+        "D": "Datu Abdul Dadia"
       },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "A",
+      "context_note": "Cagangohan represents a vital coastal population cluster with deep ties to seafaring trade and shoreline community life.",
+      "source_title": "Panabo City, Davao del Norte Profile - PhilAtlas",
+      "source_url": "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html"
     },
     {
       "id": 29,
-      "category": "Geography",
-      "question": "Panabo is part of which metropolitan area?",
+      "category": "Geography & Demographics",
+      "question": "Which unique agricultural barangay is named directly after a visionary industrial developer and patriarch of TADECO?",
       "options": {
-        "A": "Metro Tagum",
-        "B": "Metro Davao",
-        "C": "Metro Samal",
-        "D": "Metro Carmen"
+        "A": "Barangay J.P. Laurel",
+        "B": "Barangay A.O. Floirendo",
+        "C": "Barangay Consolacion",
+        "D": "Barangay Kauswagan"
       },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Barangay A.O. Floirendo is named to honor Antonio O. Floirendo Sr., who founded the massive agricultural layouts nearby.",
+      "source_title": "Panabo City, Davao del Norte Profile - PhilAtlas",
+      "source_url": "https://www.philatlas.com/mindanao/r11/davao-del-norte/panabo.html"
     },
     {
       "id": 30,
-      "category": "Geography",
-      "question": "What highway passes through Panabo connecting it to the rest of the Philippines?",
+      "category": "Geography & Demographics",
+      "question": "Panabo sits geographically wedged directly between which two major cities along the main national highway?",
       "options": {
-        "A": "Maharlika Highway (Pan-Philippine Highway)",
-        "B": "Marcos Highway",
-        "C": "Southern Mindanao Expressway",
-        "D": "Trans-Mindanao Highway"
+        "A": "Digos City and Mati City",
+        "B": "Davao City and Tagum City",
+        "C": "General Santos City and Koronadal City",
+        "D": "Kidapawan City and Cotabato City"
       },
-      "answer": "A",
-      "source": "Wikipedia / philippinescities.com",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Panabo's geographic position makes it a classic satellite transit nexus between Davao City and provincial capital Tagum City.",
+      "source_title": "Discover Panabo City: Attractions & History (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/414308366/Panabo-City-docx"
     },
     {
       "id": 31,
-      "category": "Geography",
-      "question": "How far is Panabo City from Tagum City?",
+      "category": "Festivals & Culture",
+      "question": "What core cultural concept does the word 'Binulig' signify in the local agricultural community?",
       "options": {
-        "A": "10 km",
-        "B": "20 km",
-        "C": "28 km",
-        "D": "45 km"
+        "A": "A single piece of fallen leaf",
+        "B": "A rich underground water stream",
+        "C": "A cluster or big bunch of bananas",
+        "D": "A rhythmic assembly of fishing boats"
       },
-      "answer": "C",
-      "source": "philippinescities.com",
-      "needs_verification": false
+      "correct_option": "C",
+      "context_note": "'Binulig' translates to a full cluster or bundle of bananas, perfectly illustrating communal unity and shared heavy harvests.",
+      "source_title": "Festivalscape - Binulig Festival Directory",
+      "source_url": "https://www.festivalscape.com/philippines/davao-del-norte/binulig-festival/"
     },
     {
       "id": 32,
-      "category": "Geography",
-      "question": "What is Panabo City's ZIP code?",
+      "category": "Festivals & Culture",
+      "question": "The historical celebrations for 'Araw ng Panabo' typically span over which calendar timeframe?",
       "options": {
-        "A": "8000",
-        "B": "8100",
-        "C": "8105",
-        "D": "8200"
+        "A": "January 1 to 5",
+        "B": "March 20 to 31",
+        "C": "May 10 to 15",
+        "D": "December 15 to 25"
       },
-      "answer": "C",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Araw ng Panabo events launch dynamically around March 20, leading right up to the definitive cityhood anniversary on March 31.",
+      "source_title": "Panabo City: History and Attractions (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/444010481/HISTORY-OF-docx"
     },
     {
       "id": 33,
       "category": "Festivals & Culture",
-      "question": "What is Panabo's major festival held every October?",
+      "question": "What popular festive season takes place in Panabo during the month of December to honor holiday sharing?",
       "options": {
-        "A": "Kadayawan Festival",
-        "B": "Sinulog Festival",
-        "C": "Binulig Festival",
-        "D": "Pamulak Festival"
+        "A": "Kadayawan sa Kapitolyo",
+        "B": "Paskohan sa Panabo",
+        "C": "Binulig Pasalamat",
+        "D": "Taboan Gathering"
       },
-      "answer": "C",
-      "source": "Studocu / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "'Paskohan sa Panabo' is a deeply cherished local tradition focused on holiday light installations, feeding programs, and music.",
+      "source_title": "Panabo City: History and Attractions (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/444010481/HISTORY-OF-docx"
     },
     {
       "id": 34,
       "category": "Festivals & Culture",
-      "question": "What does the Binulig Festival primarily celebrate?",
+      "question": "Which popular creative sub-culture event was spotlighted during the Silver Anniversary cityhood celebration?",
       "options": {
-        "A": "The city's founding anniversary",
-        "B": "The agricultural heritage and banana industry",
-        "C": "The indigenous Aeta culture",
-        "D": "The fishing industry"
+        "A": "The regional sculpting symposium",
+        "B": "The DYOSA Drag Queen Competition",
+        "C": "An international sand castle tournament",
+        "D": "A marathon bamboo weaving workshop"
       },
-      "answer": "B",
-      "source": "Studocu / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "The DYOSA Drag Queen Competition was a massively attended cultural highlight showcasing local diversity and artistic performance styles.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
     },
     {
       "id": 35,
@@ -504,289 +524,235 @@
         "C": "3 weeks",
         "D": "5 weeks"
       },
-      "answer": "D",
-      "source": "diklap.com / Studocu",
-      "needs_verification": true
+      "correct_option": "A",
+      "context_note": "The Binulig Festival is an annual week-long celebration held every second week of October.",
+      "source_title": "Festivalscape - Binulig Festival Directory",
+      "source_url": "https://www.festivalscape.com/philippines/davao-del-norte/binulig-festival/"
     },
     {
       "id": 36,
       "category": "Festivals & Culture",
       "question": "What festival did Binulig replace?",
       "options": {
-        "A": "Araw ng Panabo Festival",
-        "B": "Durian Festival",
+        "A": "Araw ng Panabo",
+        "B": "Tagum Fiesta",
         "C": "Banana Festival",
-        "D": "Harvest Festival"
+        "D": "Kadayawan Festival"
       },
-      "answer": "C",
-      "source": "Studocu",
-      "needs_verification": true
+      "correct_option": "C",
+      "context_note": "The event was originally known as the Banana Festival before being rebranded to Binulig (meaning a cluster/bunch of bananas).",
+      "source_title": "Festivalscape - Binulig Festival Directory",
+      "source_url": "https://www.festivalscape.com/philippines/davao-del-norte/binulig-festival/"
     },
     {
       "id": 37,
       "category": "Festivals & Culture",
-      "question": "When is 'Araw ng Panabo' observed?",
+      "question": "What grand, solemn mass is traditionally performed to gather leaders and citizens together at the closing of cityhood week?",
       "options": {
-        "A": "July 19",
-        "B": "December 20",
-        "C": "March 31",
-        "D": "June 12"
+        "A": "Misa Pasasalamat",
+        "B": "Sinulog Novena",
+        "C": "Fiesta de la Virgen",
+        "D": "Misa de Gallo"
       },
-      "answer": "C",
-      "source": "Studocu / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "A",
+      "context_note": "The Misa Pasasalamat (Thanksgiving Mass) gathers public figures and citizens alike in an open prayer of gratitude for growth.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
     },
     {
       "id": 38,
       "category": "Festivals & Culture",
-      "question": "What is the most widely spoken language in Panabo City?",
+      "question": "Which popular modern OPM musical artist headlined the massive free public concert at the conclusion of Panabo's recent milestone cityhood event?",
       "options": {
-        "A": "Tagalog",
-        "B": "Ilocano",
-        "C": "Cebuano (Bisaya)",
-        "D": "Chavacano"
+        "A": "Zack Tabudlo",
+        "B": "Maki",
+        "C": "Adie",
+        "D": "Arthur Nery"
       },
-      "answer": "C",
-      "source": "discoverdavao.ph / Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "The chart-topping artist Maki drew enormous local crowds to the main public arena, concluding with a celebratory fireworks display.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
     },
     {
       "id": 39,
       "category": "Festivals & Culture",
-      "question": "The people of Panabo City are officially called?",
+      "question": "What core element of the local landscape is heavily integrated into floats, street dancing outfits, and parade themes during Binulig?",
       "options": {
-        "A": "Panabenses",
-        "B": "Panabonons",
-        "C": "Panaboans",
-        "D": "Nabonians"
+        "A": "Vines of mountain orchids",
+        "B": "The banana plant and its bright yellow fruit",
+        "C": "Deep-sea pearl shells",
+        "D": "Woven abaca textiles exclusively"
       },
-      "answer": "C",
-      "source": "Wikipedia (official demonym)",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Since it represents their signature export product, the banana is the center point theme of street dancing aesthetics.",
+      "source_title": "About Panabo City - Discover Davao",
+      "source_url": "https://www.discoverdavao.ph/about-panabo-city"
     },
     {
       "id": 40,
       "category": "Festivals & Culture",
-      "question": "What is Panabo City's official motto?",
+      "question": "What do the civic, multi-cultural street pageants of Araw ng Panabo primarily seek to showcase?",
       "options": {
-        "A": "\"Progress Through Unity\"",
-        "B": "\"Service to Panaboans, Service to God!\"",
-        "C": "\"City of Bananas, City of Life\"",
-        "D": "\"Proud to be Panaboan\""
+        "A": "The historical transition from an ancient rainforest into a modern agro-industrial city",
+        "B": "Traditional deep-sea diving practices",
+        "C": "The history of Spanish fortresses in eastern Mindanao",
+        "D": "Modern digital software coding skills"
       },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "A",
+      "context_note": "The cultural presentations celebrate multi-ethnic convergence, tracking how early tribal grounds bloomed into today's modern economic hub.",
+      "source_title": "Panabo City: History and Attractions (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/444010481/HISTORY-OF-docx"
     },
     {
       "id": 41,
       "category": "Landmarks & Tourism",
       "question": "What museum in Panabo City preserves the city's cultural heritage?",
       "options": {
-        "A": "Casa Real Panabo",
+        "A": "Davao Museum",
         "B": "Museo Panabo",
-        "C": "Panabo Heritage House",
-        "D": "Taboan Museum"
+        "C": "Banana Capital Museum",
+        "D": "Tagum Historical Hub"
       },
-      "answer": "B",
-      "source": "Studocu / discoverdavao.ph",
-      "needs_verification": true
+      "correct_option": "B",
+      "context_note": "Museo Panabo serves as the central repository for the city's indigenous artifacts and historical documents.",
+      "source_title": "Davao del Norte State College Academic News Hub",
+      "source_url": "https://dnsc.edu.ph/dnsc-and-lgu-panabo-pay-tribute-to-phs-127th-independence-day/"
     },
     {
       "id": 42,
       "category": "Landmarks & Tourism",
-      "question": "Who sculpted the banana-inspired fountain at Panabo's Freedom Park?",
+      "question": "The signature banana-inspired public water fountain at Freedom Park was sculpted by which renowned Mindanao artist?",
       "options": {
-        "A": "Abdulmari Imao",
-        "B": "Napoleon Abueva",
-        "C": "Kublai Millan",
+        "A": "Napoleon Abueva",
+        "B": "Kublai Millan",
+        "C": "Abdulmari Imao",
         "D": "Eduardo Castrillo"
       },
-      "answer": "C",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Acclaimed artist Kublai Millan crafted the iconic center-park piece to proudly mirror Panabo's deep-set agricultural roots.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
     },
     {
       "id": 43,
       "category": "Landmarks & Tourism",
-      "question": "The Panabo Multi-Purpose Tourism, Cultural and Sports Center can accommodate approximately how many people?",
+      "question": "What structure was retrofitted and redesigned by the city tourism office to house the galleries of Museo Panabo?",
       "options": {
-        "A": "2,000",
-        "B": "5,000",
-        "C": "10,000",
-        "D": "20,000"
+        "A": "An abandoned maritime shipping container terminal",
+        "B": "The historical Old Panabo City Hall building",
+        "C": "The original rural bank vault house",
+        "D": "A legacy public market pavilion"
       },
-      "answer": "C",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "The local government adapted the old city hall property into a cultural museum space to protect regional historical facts.",
+      "source_title": "Panabo City: History and Attractions (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/444010481/HISTORY-OF-docx"
     },
     {
       "id": 44,
       "category": "Landmarks & Tourism",
-      "question": "The Panabo Multi-Purpose gym also serves as a playing venue for which league?",
+      "question": "What massive indoor sports assembly complex can hold up to 10,000 spectators and hosts elite PBA basketball matchups in the city?",
       "options": {
-        "A": "UAAP",
-        "B": "Philippine Basketball Association (PBA)",
-        "C": "NCAA Philippines",
-        "D": "Maharlika Pilipinas Basketball League"
+        "A": "Davao Provincial Coliseum",
+        "B": "Panabo Multi-Purpose Tourism, Cultural and Sports Center",
+        "C": "TADECO Industrial Recreation Gym",
+        "D": "Tagum City Track Hub"
       },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "This premiere center serves as the anchor point for massive public assemblies, major concert productions, and sports events.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
     },
     {
       "id": 45,
       "category": "Landmarks & Tourism",
-      "question": "Panabo City Hall is approximately how far from the Davao City boundary?",
+      "question": "What primary feature makes Freedom Park a highly popular gathering spot for Panaboan families on weekends?",
       "options": {
-        "A": "500 meters",
-        "B": "1 kilometer",
-        "C": "2.23 kilometers",
-        "D": "5 kilometers"
+        "A": "Vast commercial underground shopping arcade walkways",
+        "B": "Lush green open spaces, weekend food markets, and cultural landmarks",
+        "C": "A dense private zoo footprint",
+        "D": "An Olympic-grade concrete velodrome track"
       },
-      "answer": "C",
-      "source": "Wikipedia / panabocity.gov.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Freedom Park functions as the green lung of downtown Panabo, hosting regular local events and night markets.",
+      "source_title": "About Panabo City - Discover Davao",
+      "source_url": "https://www.discoverdavao.ph/about-panabo-city"
     },
     {
       "id": 46,
       "category": "Landmarks & Tourism",
       "question": "What type of natural attraction in Panabo is known for its ecological importance?",
       "options": {
-        "A": "Coral reefs",
+        "A": "Waterfalls",
         "B": "Mangrove forest",
-        "C": "Volcanic crater lake",
-        "D": "Underground river"
+        "C": "Volcanic cave",
+        "D": "Hot springs"
       },
-      "answer": "B",
-      "source": "panabocity.gov.ph / Scribd document",
-      "needs_verification": true
+      "correct_option": "B",
+      "context_note": "The Panabo Mangrove Park is highly recognized for protecting coastal biodiversity along the Davao Gulf.",
+      "source_title": "ResearchGate - Location and Ecosystem of Panabo Mangrove Park",
+      "source_url": "https://www.researchgate.net/figure/Location-of-Panabo-Mangrove-Park-Panabo-City-Davao-del-Norte-Philippines-Google_fig1_354610268"
     },
     {
       "id": 47,
       "category": "Landmarks & Tourism",
-      "question": "What type of farm tours are available for visitors in Panabo?",
+      "question": "Which coastal destination in Panabo is popular for its panoramic sea views and open-air seaside dining options?",
       "options": {
-        "A": "Rice terraces",
-        "B": "Coffee and cacao farms only",
-        "C": "Fish, shrimp farms and banana plantations",
-        "D": "Sugar mill tours"
+        "A": "Highland Peak View",
+        "B": "The Panabo Seawall",
+        "C": "The Riverbend Trail",
+        "D": "Banana Wharf Boardwalk"
       },
-      "answer": "C",
-      "source": "discoverdavao.ph",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "The local seawall is a favorite spot for evening strolls and enjoying fresh seafood alongside views of the gulf.",
+      "source_title": "Panabo City: History and Attractions (Scribd Archive)",
+      "source_url": "https://www.scribd.com/document/444010481/HISTORY-OF-docx"
     },
     {
       "id": 48,
-      "category": "Population & Government",
-      "question": "What was Panabo's population according to the 2024 Census?",
+      "category": "Landmarks & Tourism",
+      "question": "Which prominent local state educational institution anchors academic and agricultural research excellence inside the city bounds?",
       "options": {
-        "A": "150,432",
-        "B": "184,599",
-        "C": "209,230",
-        "D": "211,242"
+        "A": "Mindanao State University Extension",
+        "B": "Davao del Norte State College (DNSC)",
+        "C": "University of Southeastern Philippines Panabo",
+        "D": "Panabo Technical Institute"
       },
-      "answer": "D",
-      "source": "Wikipedia / PSA 2024 Census",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "DNSC collaborates closely with the local government unit (LGU) on heritage documentation and coastal conservation programs.",
+      "source_title": "Davao del Norte State College Academic News Hub",
+      "source_url": "https://dnsc.edu.ph/dnsc-and-lgu-panabo-pay-tribute-to-phs-127th-independence-day/"
     },
     {
       "id": 49,
-      "category": "Population & Government",
-      "question": "Panabo is the ___ most populous city in Davao del Norte.",
+      "category": "Notable People",
+      "question": "Which elite defense tactical units were formally recognized for outstanding peace-keeping service during recent cityhood milestones?",
       "options": {
-        "A": "First",
-        "B": "Second",
-        "C": "Third",
-        "D": "Fourth"
+        "A": "The 10th Scout Ranger Company",
+        "B": "The 27th Infantry (Action) Battalion and local police mobile forces",
+        "C": "The Maritime Border Guard Fleet",
+        "D": "The Southern Air Defense Wing"
       },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "The 27th Infantry Battalion and the 2nd Davao del Norte Provincial Mobile Force Company were honored for ensuring community stability.",
+      "source_title": "A decade and a half of resilience, shared progress, and transformation - SunStar",
+      "source_url": "https://www.sunstar.com.ph/davao/feature/a-decade-and-a-half-of-resilience-shared-progress-and-transformation-2"
     },
     {
       "id": 50,
-      "category": "Population & Government",
-      "question": "What is the income classification of Panabo City?",
-      "options": {
-        "A": "1st class city",
-        "B": "2nd class city",
-        "C": "3rd class city",
-        "D": "Independent component city"
-      },
-      "answer": "A",
-      "source": "Wikipedia",
-      "needs_verification": false
-    },
-    {
-      "id": 51,
-      "category": "Population & Government",
-      "question": "What is Panabo City's total land area in square kilometers?",
-      "options": {
-        "A": "125.5 km²",
-        "B": "175.2 km²",
-        "C": "251.23 km²",
-        "D": "320.8 km²"
-      },
-      "answer": "C",
-      "source": "Wikipedia / PhilAtlas",
-      "needs_verification": false
-    },
-    {
-      "id": 52,
-      "category": "Notable People",
-      "question": "Which Panaboan is a professional boxer known internationally?",
-      "options": {
-        "A": "Manny Pacquiao",
-        "B": "Jerwin Ancajas",
-        "C": "Mark Magsayo",
-        "D": "Jonas Sultan"
-      },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": false
-    },
-    {
-      "id": 53,
-      "category": "Notable People",
-      "question": "Which Panaboan became a semifinalist on The Voice of the Philippines?",
-      "options": {
-        "A": "Kobie Brown",
-        "B": "Jason Dy",
-        "C": "Thor Dulay",
-        "D": "Klarisse de Guzman"
-      },
-      "answer": "C",
-      "source": "Wikipedia",
-      "needs_verification": false
-    },
-    {
-      "id": 54,
       "category": "Notable People",
       "question": "Jasmine Bacurnay Lee, a notable person from Panabo, is known as what in South Korea?",
       "options": {
-        "A": "K-pop idol",
+        "A": "Corporate CEO",
         "B": "Actress and politician",
-        "C": "Professional athlete",
-        "D": "News anchor"
+        "C": "Diplomatic Ambassador",
+        "D": "Professional athlete"
       },
-      "answer": "B",
-      "source": "Wikipedia",
-      "needs_verification": true
-    },
-    {
-      "id": 55,
-      "category": "Notable People",
-      "question": "Alan Dujali, a notable Panaboan, is known as a?",
-      "options": {
-        "A": "Boxer",
-        "B": "Musician",
-        "C": "Politician",
-        "D": "Journalist"
-      },
-      "answer": "C",
-      "source": "Wikipedia",
-      "needs_verification": false
+      "correct_option": "B",
+      "context_note": "Panabo-born Jasmine Lee achieved prominence in South Korea as both a television actress and the first naturalized citizen elected to the National Assembly.",
+      "source_title": "Wikipedia - Jasmine Bacurnay Lee Profile",
+      "source_url": "https://en.wikipedia.org/wiki/Jasmine_Bacurnay_Lee"
     }
   ]
 }

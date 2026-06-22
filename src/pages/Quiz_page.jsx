@@ -1,139 +1,191 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import quizData from "../data/questions.json"; // Direct import of your JSON file
+import quizData from "../data/questions.json";
 
 export default function Quiz_page() {
   const navigate = useNavigate();
+  const timerRef = useRef(null);
 
-  const questionsPerGame = quizData.quiz.questions_per_game || 15;
+  const questionsList = Array.isArray(quizData) ? quizData : quizData.questions || [];
+  const questionsPerGame = quizData?.quiz?.questions_per_game || 15;
 
-  // 1. Setup the active game pool with randomized/shuffled items right during state initialization
-  const [gameQuestions] = useState(() => {
-    return [...quizData.questions]
+  // 1. CHOSEN QUESTION IDS IN LOCAL STORAGE
+  // We only track the IDs of the active game session to track order and persistence
+  const [gameQuestionIds] = useState(() => {
+    const savedIds = localStorage.getItem("active_game_question_ids");
+    if (savedIds) {
+      return JSON.parse(savedIds);
+    }
+
+    const freshPoolIds = [...questionsList]
       .sort(() => Math.random() - 0.5)
-      .slice(0, questionsPerGame);
+      .slice(0, questionsPerGame)
+      .map((q) => q.id); // Save ONLY the IDs, keeping secrets out of local storage!
+
+    localStorage.setItem("active_game_question_ids", JSON.stringify(freshPoolIds));
+    return freshPoolIds;
   });
 
-  // Core state handlers
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [score, setScore] = useState(0);
-  const [selectedKey, setSelectedKey] = useState(null); // Tracks the letter code (A, B, C, D)
+  // 2. RESUME TRACKING
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const savedIndex = localStorage.getItem("current_index");
+    return savedIndex ? parseInt(savedIndex, 10) : 0;
+  });
+
+  const [score, setScore] = useState(() => {
+    const savedScore = localStorage.getItem("quiz_score");
+    return savedScore ? parseInt(savedScore, 10) : 0;
+  });
+
+  // UI state handlers
+  const [selectedKey, setSelectedKey] = useState(null);
   const [isAnswered, setIsAnswered] = useState(false);
 
-  const currentQuestion = gameQuestions[currentIndex];
+  // 3. SECURE LOCAL DATA SEPARATION
+  // We locate the raw question from our local bundle to evaluate answers securely.
+  const currentQuestionId = gameQuestionIds[currentIndex];
+  const secureQuestionSource = questionsList.find((q) => q.id === currentQuestionId);
+
+  // Generate a sanitized clone for rendering to prevent DOM/State tree leaking
+  const currentQuestionRender = secureQuestionSource
+    ? {
+        id: secureQuestionSource.id,
+        category: secureQuestionSource.category,
+        question: secureQuestionSource.question,
+        options: secureQuestionSource.options,
+      }
+    : null;
 
   const handleOptionSelect = (key) => {
-    if (isAnswered) return; // Prevent multiple selection clicks
+    if (isAnswered || !secureQuestionSource) return;
 
     setSelectedKey(key);
     setIsAnswered(true);
 
     let currentCalculatedScore = score;
-    // If option key matches the letter code in 'answer' field, increment score
-    if (key === currentQuestion.answer) {
+    
+    // Evaluates against the secure source file kept out of client state tree maps
+    if (key === secureQuestionSource.correct_option) {
       currentCalculatedScore = score + 1;
       setScore(currentCalculatedScore);
-      // Synchronize updated score directly into local browser storage
       localStorage.setItem("quiz_score", currentCalculatedScore.toString());
     }
 
-    // Short display pause for visual feedback before clearing flags & advancing index
-    setTimeout(() => {
+    timerRef.current = setTimeout(() => {
       const nextIndex = currentIndex + 1;
-      if (nextIndex < gameQuestions.length) {
+      if (nextIndex < gameQuestionIds.length) {
         setCurrentIndex(nextIndex);
         setSelectedKey(null);
         setIsAnswered(false);
-        // Synchronize updated question index progress to local storage
         localStorage.setItem("current_index", nextIndex.toString());
       } else {
-        // Clear progress variables at the end of the session, preserving userID
         localStorage.removeItem("current_index");
+        localStorage.removeItem("active_game_question_ids");
+        localStorage.removeItem("quiz_score");
 
-        // Redirect route cleanly to the score_page view, passing state statistics
         navigate("/score", {
           state: {
             score: currentCalculatedScore,
-            total: gameQuestions.length,
+            total: gameQuestionIds.length,
           },
         });
       }
-    }, 1200);
+    }, 2500);
   };
 
-  // ─── DISABLE BACK BUTTON LOGIC ───────────────────────────────────────
   useEffect(() => {
-    // Push an extra state into the browser history stack
     window.history.pushState(null, null, window.location.pathname);
-
-    const handlePopState = (event) => {
-      // Re-push the state to lock the user on the current screen
+    const handlePopState = () => {
       window.history.pushState(null, null, window.location.pathname);
-
-      // Optional: You can trigger a clean custom alert banner here if you want
-      // alert("Bawal bumalik! Tapusin muna ang sinimulang quiz. 💪");
     };
-
-    // Listen for the user attempting to navigate backward
     window.addEventListener("popstate", handlePopState);
-
-    // Clean up the event listener when the component unmounts (e.g., when quiz finishes)
+    
     return () => {
       window.removeEventListener("popstate", handlePopState);
+      if (timerRef.current) clearTimeout(timerRef.current);
     };
   }, []);
-  // ─────────────────────────────────────────────────────────────────────
+
+  if (!currentQuestionRender) {
+    return (
+      <div className="flex items-center justify-center min-h-60 text-sm text-gray-500">
+        No questions available.
+      </div>
+    );
+  }
 
   return (
-    <div className="flex flex-col p-6 bg-white rounded-2xl shadow-lg max-w-sm mx-auto w-full">
-      {/* Quiz Progress & Category */}
-      <div className="flex justify-between items-center mb-3 text-xs text-gray-400 font-medium tracking-wide uppercase">
-        <span>{currentQuestion.category}</span>
-        <span>
-          {currentIndex + 1} / {gameQuestions.length}
-        </span>
-      </div>
+    <div className="flex flex-col gap-4 max-w-sm mx-auto w-full my-10 px-4">
+      <div className="flex flex-col p-6 bg-white/80 backdrop-blur-md border border-white/20 rounded-2xl shadow-xl w-full">
+        <div className="flex justify-between items-center mb-4 text-[11px] text-gray-400 font-semibold tracking-wider uppercase">
+          <span className="bg-gray-100 px-2.5 py-1 rounded-full text-gray-600">
+            {currentQuestionRender.category}
+          </span>
+          <span className="font-mono">
+            {currentIndex + 1} / {gameQuestionIds.length}
+          </span>
+        </div>
 
-      {/* Question Text */}
-      <h2 className="text-xl font-bold text-gray-800 mb-6 leading-snug min-h-14">
-        {currentQuestion.question}
-      </h2>
+        <h2 className="text-lg font-bold text-gray-800 mb-6 leading-snug min-h-[3.5rem]">
+          {currentQuestionRender.question}
+        </h2>
 
-      {/* Options Stack (Iterating Object Keys A, B, C, D) */}
-      <div className="flex flex-col gap-3">
-        {Object.entries(currentQuestion.options).map(([key, value]) => {
-          // Style feedback evaluation classes
-          let buttonStyles =
-            "border-gray-100 hover:border-blue-500 hover:bg-blue-50/30";
+        <div className="flex flex-col gap-3">
+          {Object.entries(currentQuestionRender.options).map(([key, value]) => {
+            let buttonStyles = "border-gray-200 bg-white/50 hover:border-blue-500 hover:bg-blue-50/50 text-gray-700";
 
-          if (isAnswered) {
-            if (key === currentQuestion.answer) {
-              // Highlight the real answer in green
-              buttonStyles = "border-green-500 bg-green-50 text-green-700";
-            } else if (
-              key === selectedKey &&
-              selectedKey !== currentQuestion.answer
-            ) {
-              // Highlight wrong selected option in red
-              buttonStyles = "border-red-400 bg-red-50 text-red-600";
-            } else {
-              buttonStyles = "border-gray-100 opacity-60";
+            if (isAnswered) {
+              // We pull the key securely only AFTER a click validation has gone through
+              if (key === secureQuestionSource.correct_option) {
+                buttonStyles = "border-emerald-500 bg-emerald-50 text-emerald-800 shadow-sm shadow-emerald-100";
+              } else if (key === selectedKey && selectedKey !== secureQuestionSource.correct_option) {
+                buttonStyles = "border-rose-400 bg-rose-50 text-rose-700";
+              } else {
+                buttonStyles = "border-gray-100 opacity-40 grayscale-[20%]";
+              }
             }
-          }
 
-          return (
-            <button
-              key={key}
-              disabled={isAnswered}
-              onClick={() => handleOptionSelect(key)}
-              className={`w-full text-left px-4 py-3 rounded-xl border-2 font-medium transition-all duration-200 flex items-start ${buttonStyles}`}
-            >
-              <span className="font-bold mr-3 text-gray-400">{key}.</span>
-              <span>{value}</span>
-            </button>
-          );
-        })}
+            return (
+              <button
+                key={key}
+                disabled={isAnswered}
+                onClick={() => handleOptionSelect(key)}
+                className={`w-full text-left px-4 py-3.5 rounded-xl border font-medium transition-all duration-200 flex items-start text-sm ${buttonStyles}`}
+              >
+                <span className={`font-bold mr-3 ${isAnswered && key === secureQuestionSource.correct_option ? 'text-emerald-600' : 'text-gray-400'}`}>
+                  {key}.
+                </span>
+                <span className="flex-1">{value}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
+
+      {/* Exposes notes/explainer links only after user completes selection logic */}
+      {isAnswered && secureQuestionSource.context_note && (
+        <div className="p-4 bg-blue-50/90 backdrop-blur-sm border border-blue-100 rounded-2xl shadow-md transition-all duration-300 animate-in fade-in slide-in-from-top-2">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-base leading-none">💡</span>
+            <h4 className="text-xs font-bold text-blue-800 uppercase tracking-wider">
+              Context & Source
+            </h4>
+          </div>
+          <p className="text-xs text-gray-600 leading-relaxed mb-2">
+            {secureQuestionSource.context_note}
+          </p>
+          {secureQuestionSource.source_url && (
+            <a 
+              href={secureQuestionSource.source_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-[11px] font-medium text-blue-600 hover:underline gap-1 mt-1 bg-white/60 px-2 py-0.5 rounded-md border border-blue-100"
+            >
+              Verify via: {secureQuestionSource.source_title || "Reference Link"} ↗
+            </a>
+          )}
+        </div>
+      )}
     </div>
   );
 }
