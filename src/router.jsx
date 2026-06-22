@@ -1,23 +1,29 @@
 import { createBrowserRouter } from "react-router";
-import Menu_page from "./pages/menu_page";
-import Quiz_page from "./pages/quiz_page";
+import MainMenuPage from "./pages/main_menu_page";
+
 import Result_page from "./pages/result_page";
-import ProtectedRoute from "./components/layout/l_protectedRoute"; // Adjust the import path as needed
+import ProtectedRoute from "./components/layout/l_protectedRoute"; 
+import Leaderboard_page from "./pages/leaderboard_page";
+import QuizBoardPage from "./pages/quiz_board_page";
 
 export const router = createBrowserRouter([
-  // Public Route: Anyone can visit the menu
+  // 🔓 Public Routes: Anyone can visit these anytime
   {
     path: "/",
-    element: <Menu_page />,
+    element: <MainMenuPage />,
   },
-  
-  // Protected Routes Group
   {
-    element: <ProtectedRoute />, // Wraps everything below
+    path: "/leaderboard",
+    element: <Leaderboard_page />, // Moved out here so it's fully public!
+  },
+
+  // 🔒 Protected Routes Group: Restricts unauthorized access
+  {
+    element: <ProtectedRoute />, 
     children: [
       {
         path: "/quiz",
-        element: <Quiz_page />,
+        element: <QuizBoardPage />,
       },
       {
         path: "/score",

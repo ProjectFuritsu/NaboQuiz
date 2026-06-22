@@ -14,22 +14,23 @@ export default function result_page() {
   const percentage = Math.round((score / total) * 100);
 
   // Generate localized, dynamic feedback messages based on performance tiers
-  let feedbackTitle = "Keep Learning!";
+  let feedbackTitle = "Kaya Pa Na, Suway Alang! 🧭";
   let feedbackSubtitle =
-    "Subukan mong mag-ikot uli sa panabocity.gov.ph o magtanong sa mga katatandaan natin dito sa Nabo!";
+    "Ayawg kabaka! Pwede ka mag-basa-basa utro sa panabocity.gov.ph o makig-istorya sa mga katigulangan dire sa Nabo para sa dugang chika ug kaalam!";
 
+    
   if (percentage === 100) {
-    feedbackTitle = "Tunay na Taga-Panabo! 🏆";
+    feedbackTitle = "Hala, Katigam Ba! 🏆";
     feedbackSubtitle =
-      "Hala kabalo gyud ka! Bagay kaayo ka maging tour guide sa Museo Panabo!";
+      "Solid kaayo! Sweto kaayo ka sa istorya sa Panabo. Bagay na bagay gyud ka maging tour guide sa atong Museo!";
   } else if (percentage >= 80) {
-    feedbackTitle = "Hapit na Perfect! 🍌";
+    feedbackTitle = "Hapit na Ma-Perfect! 🍌";
     feedbackSubtitle =
-      "Puno ka og kahibalo mahitungod sa Banana Capital! Kulang na lang og gamay nga pag-review.";
+      "Bilib ko nimo! Puno kaayo kag kahibalo sa atong Banana Capital. Gamay na lang gyud kaayong review, perpekto na!";
   } else if (percentage >= 50) {
-    feedbackTitle = "Swak na Swak! 👌";
+    feedbackTitle = "Puyde Na, Swak Ra! 👌";
     feedbackSubtitle =
-      "Kabalo ka sa mga basic facts. Sakto lang ang imong kaalam sa atong pinalanggang siyudad!";
+      "Dili ka pildi! Kabalo ka sa mga basic facts mahitungod sa atong pinalanggang siyudad. Padayon sa pagkat-on!";
   }
 
   return (
