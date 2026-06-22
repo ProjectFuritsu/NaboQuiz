@@ -126,7 +126,7 @@ export default function Quiz_page() {
           </span>
         </div>
 
-        <h2 className="text-lg font-bold text-gray-800 mb-6 leading-snug min-h-[3.5rem]">
+        <h2 className="text-lg font-bold text-gray-800 mb-6 leading-snug min-h-14">
           {currentQuestionRender.question}
         </h2>
 
